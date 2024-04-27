@@ -72,3 +72,9 @@ endmap
 
 map whiskey_outpost_v2
 endmap
+
+map Hera_Station_Chyke_G96
+endmap
+
+map Madsens_Keep_RV_882
+endmap

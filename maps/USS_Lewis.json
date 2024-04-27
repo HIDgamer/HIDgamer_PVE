@@ -1,0 +1,9 @@
+{
+    "map_name": "USS Lewis",
+    "map_path": "map_files/uss_lewis",
+    "map_file": "USS_Lewis.dmm",
+    "webmap_url": "GoldenArrow",
+    "traits": [{"Marine Main Ship": true}],
+    "nightmare_path": "maps/Nightmare/maps/golden_arrow/",
+    "platoon": "/datum/squad/marine/alpha"
+}
