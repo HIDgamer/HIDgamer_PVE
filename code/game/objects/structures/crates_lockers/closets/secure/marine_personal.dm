@@ -20,7 +20,7 @@
 	return ..()
 
 /obj/structure/closet/secure_closet/marine_personal/allowed(mob/M)
-	if(owner == M.real_name)
+	if(owner == M.name)
 		return TRUE
 	return FALSE
 

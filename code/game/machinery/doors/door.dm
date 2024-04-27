@@ -214,7 +214,7 @@
 			flick("door_deny", src)
 	return
 
-/obj/structure/machinery/door/proc/open(forced)
+/obj/structure/machinery/door/proc/open(forced=0)
 	if(!density)
 		return TRUE
 	if(operating || !loc)
