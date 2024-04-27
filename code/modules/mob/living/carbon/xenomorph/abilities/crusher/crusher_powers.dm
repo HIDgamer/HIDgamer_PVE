@@ -97,6 +97,7 @@
 
 /datum/action/xeno_action/onclick/crusher_stomp/use_ability(atom/A)
 	var/mob/living/carbon/xenomorph/xeno_owner = owner
+	flick("Normal Crusher Stomping", owner)
 	if (!istype(xeno_owner))
 		return
 
