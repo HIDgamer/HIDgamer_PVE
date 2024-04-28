@@ -349,7 +349,7 @@
 "lE" = (/obj/structure/largecrate/random/barrel,/obj/structure/closet/coffin/woodencrate{pixel_y = 19},/turf/open/floor/plating/bare_catwalk,/area/desert_dam/building/substation/northeast{name = "Hallway"})
 "lF" = (/obj/structure/surface/table/holotable,/turf/open/floor/almayer,/area/desert_dam/building/telecommunication)
 "lG" = (/obj/structure/machinery/door/airlock/multi_tile/almayer/generic{dir = 2},/turf/open/floor/almayer,/area/desert_dam/building/bar/backroom{name = "RNR"})
-"lH" = (/obj/docking_port/stationary/trijent_elevator/empty{id = "trijent_omega"; name = "Omega Elevator"; airlock_exit = "east"; airlock_area = /area/shuttle/trijent_shuttle/omega; elevator_network = "B"},/turf/open/gm/empty,/area/shuttle/trijent_shuttle/engi{name = "Mines"})
+"lH" = (/obj/docking_port/stationary/trijent_elevator/empty{id = "trijent_omega"; name = "Mine Entrance"; airlock_exit = "east"; airlock_area = /area/shuttle/trijent_shuttle/omega; elevator_network = "B"},/turf/open/gm/empty,/area/shuttle/trijent_shuttle/engi{name = "Mines"})
 "lJ" = (/obj/structure/machinery/floodlight/landing/floor{pixel_y = -6},/turf/open/auto_turf/shale/layer1,/area/desert_dam/exterior/valley/valley_wilderness)
 "lK" = (/turf/open/asphalt{icon_state = "asphalt3"},/area/desert_dam/exterior/telecomm/lz1_xenoflora{name = "\improper South gate"})
 "lL" = (/obj/structure/machinery/light/spot{dir = 1; pixel_y = 17},/turf/open/floor/almayer,/area/desert_dam/building/medical/patient_wing)
@@ -429,7 +429,7 @@
 "oj" = (/turf/closed/wall,/area/desert_dam/building/mining/workshop)
 "ok" = (/obj/structure/curtain/open/shower,/turf/open/floor/almayer,/area/desert_dam/building/dorms/restroom{name = "Operations bunks"})
 "om" = (/mob/living/simple_animal/cow{icon_state = "cow_dead"},/mob/living/simple_animal/cow{icon_state = "cow_dead"},/obj/effect/decal/cleanable/blood,/obj/effect/decal/cleanable/blood,/obj/effect/decal/cleanable/blood,/turf/open/floor{icon_state = "bar"},/area/desert_dam/building/substation/central{name = "Slaughter House"})
-"op" = (/obj/structure/machinery/computer/shuttle/elevator_controller/elevator_call/trijent/omega{pixel_y = 9; shuttleId = "trijentshuttle22"; pixel_x = -25},/turf/open/floor/almayer,/area/desert_dam/building/mining/workshop)
+"op" = (/obj/structure/machinery/computer/shuttle/elevator_controller/elevator_call{pixel_y = 10; pixel_x = -24; dockId = "trijent_omega"},/turf/open/floor/almayer,/area/desert_dam/building/mining/workshop)
 "oq" = (/obj/structure/machinery/conveyor,/turf/open/floor/almayer,/area/desert_dam/building/substation/central{name = "Slaughter House"})
 "os" = (/turf/closed/wall,/area/desert_dam/building/bar/bar{name = "Nicoles bar"})
 "ov" = (/obj/structure/machinery/light/spot,/turf/open/floor/almayer,/area/desert_dam/building/substation/northeast{name = "Hallway"})
@@ -1088,10 +1088,10 @@
 "KH" = (/turf/open/floor/almayer{dir = 10; icon_state = "orange"},/area/desert_dam/building/church{name = "Engineering"})
 "KI" = (/obj/structure/machinery/cm_vending/sorted/medical,/turf/open/floor/almayer,/area/desert_dam/building/administration/lobby{name = "Operations"})
 "KJ" = (/obj/structure/machinery/light/spot,/turf/open/floor/almayer,/area/desert_dam/building/administration/office{name = "Immigration Office"})
-"KK" = (/obj/structure/machinery/floodlight/landing/floor{pixel_y = -6},/obj/structure/platform,/obj/structure/machinery/power/apc{dir = 8},/turf/open/floor/plating/bare_catwalk,/area/desert_dam/exterior/telecomm/lz1_xenoflora{name = "\improper South gate"})
+"KK" = (/obj/structure/machinery/floodlight/landing/floor{pixel_y = -6},/obj/structure/platform,/obj/structure/machinery/power/apc{dir = 8},/turf/open/floor/plating/bare_catwalk,/area/desert_dam/exterior/telecomm{name = "\improper North west gate"})
 "KL" = (/obj/structure/prop/ice_colony/dense/planter_box/hydro,/turf/open/nostromowater,/area/desert_dam/building/hydroponics/hydroponics)
 "KN" = (/obj/effect/decal/warning_stripes{icon_state = "E"; pixel_y = 1},/turf/open/asphalt{icon_state = "asphalt"},/area/desert_dam/exterior/valley/valley_wilderness)
-"KR" = (/obj/structure/machinery/computer/shuttle/elevator_controller/elevator_call/trijent/lz2{pixel_x = 32; shuttleId = "trijentshuttle22"},/turf/open/shale/underlayer,/area/desert_dam/interior/caves/east_caves{name = "Northern Caves"})
+"KR" = (/obj/structure/machinery/computer/shuttle/elevator_controller/elevator_call{pixel_y = 11; pixel_x = 28; dockId = "trijent_lz2"},/turf/open/shale/underlayer,/area/desert_dam/interior/caves/east_caves{name = "Northern Caves"})
 "KS" = (/obj/structure/surface/table/almayer,/turf/open/floor/almayer,/area/desert_dam/building/administration/lobby{name = "Operations"})
 "KT" = (/obj/structure/toilet{dir = 4},/obj/structure/window/reinforced/tinted{dir = 1; pixel_y = 8},/turf/open/floor/almayer,/area/desert_dam/building/dorms/restroom{name = "Operations bunks"})
 "KV" = (/obj/structure/janitorialcart,/turf/open/floor/almayer,/area/desert_dam/building/dorms/hallway_westwing{name = "Janitorial Wing"})
@@ -1370,7 +1370,7 @@
 "UF" = (/obj/structure/machinery/cm_vending/sorted/medical/blood,/obj/structure/machinery/light/spot{dir = 1; pixel_y = 17},/turf/open/floor/almayer{dir = 10; icon_state = "greenfull"},/area/desert_dam/building/medical/patient_wing)
 "UH" = (/obj/structure/machinery/door_control{id = Garage; pixel_x = 24},/turf/open/floor/almayer,/area/desert_dam/building/water_treatment_one/garage)
 "UI" = (/obj/structure/stairs{dir = 8},/turf/closed/wall/rock,/area/space)
-"UK" = (/obj/structure/platform,/turf/open/floor/plating/bare_catwalk,/area/desert_dam/exterior/telecomm/lz1_xenoflora{name = "\improper South gate"})
+"UK" = (/obj/structure/platform,/turf/open/floor/plating/bare_catwalk,/area/desert_dam/exterior/telecomm{name = "\improper North west gate"})
 "UL" = (/obj/item/tool/pickaxe,/turf/open/shale/underlayer,/area/desert_dam/interior/caves/east_caves{name = "Northern Caves"})
 "UN" = (/obj/structure/closet/secure_closet/engineering_welding,/turf/open/floor/almayer,/area/desert_dam/building/telecommunication)
 "UP" = (/obj/structure/machinery/light/spot{dir = 1},/turf/open/floor/almayer,/area/desert_dam/building/mining/workshop)
@@ -1399,7 +1399,7 @@
 "VD" = (/turf/closed/wall/r_wall,/area/desert_dam/building/security/evidence)
 "VE" = (/obj/structure/machinery/door/airlock/almayer/security/glass/reinforced/colony,/turf/open/floor{icon_state = "white"},/area/desert_dam/building/security/marshals_office)
 "VG" = (/obj/effect/decal/cleanable/blood,/obj/effect/decal/cleanable/blood/splatter,/turf/open/floor{icon_state = "bar"},/area/desert_dam/building/substation/central{name = "Slaughter House"})
-"VK" = (/obj/structure/machinery/door/poddoor/almayer{dir = 4; id = null; name = "\improper Elevator Lock"},/turf/open/space/basic,/area/shuttle/trijent_shuttle/engi{name = "Mines"})
+"VK" = (/obj/structure/machinery/door/poddoor/almayer{dir = 4; id = null; name = "\improper Elevator Lock"},/turf/open/floor/almayer,/area/shuttle/trijent_shuttle/engi{name = "Mines"})
 "VM" = (/obj/structure/bed/sofa/vert/white/top,/turf/open/floor,/area/desert_dam/building/hydroponics/hydroponics_breakroom)
 "VP" = (/obj/structure/filtration/machine_96x96/disinfection,/turf/open/floor/almayer,/area/desert_dam/building/water_treatment_two/purification{name = "Refinery"})
 "VR" = (/obj/structure/surface/rack,/obj/item/tool/shovel/etool/folded,/obj/item/tool/shovel/etool/folded,/obj/item/tool/shovel/etool/folded,/obj/item/tool/shovel/etool/folded,/obj/item/tool/shovel/etool/folded,/obj/item/tool/shovel/etool/folded,/obj/item/tool/shovel/etool/folded,/obj/item/tool/shovel/etool/folded,/obj/item/tool/shovel/etool/folded,/obj/item/tool/shovel/etool/folded,/obj/item/tool/shovel/etool/folded,/obj/item/tool/shovel/etool/folded,/obj/item/tool/shovel/etool/folded,/obj/item/tool/shovel/etool/folded,/obj/item/tool/shovel/etool/folded,/obj/item/tool/shovel/etool/folded,/turf/open/floor/almayer,/area/desert_dam/building/hydroponics/hydroponics_loading{name = "Excursion"})
@@ -1913,7 +1913,7 @@ fbfbfbfbfbfbfbfbfbfififiyaBpBptKBpQDBpBpvGfifififbfbfbzZzZfififififififififififi
 fbfbfbfbfbfbfbfbfbfififiyaBpBptKBpQDBpBpvGfififififizZzZfifififififififififififififififififififiemBpBpBpBptKBpQDVcNCtJNCNCtJNCNCtJNCqIROROOAImqDtAtAChImImRORORORORvRvFoWbWbggFoFoEcrtbzrtrtrtbzrtEcrtbzrtrtrtbzrtvwBptKBpQDBpvGfififififififiyaBptKBpQDBpoMoMAwYRYRYRYRYRYRYRaBjJGywxISHLLyDScBcBcBpyDSLrcBcBcBcBcBcBcBcBcBcBTcDSISHLLyFwfizZfbfbfbxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxa
 fbfbfbfbfbfbfbfbfbfififiyaBpBptKBpQDBpBpvGfifififizZzZfififififififififififififififififififififiyaBpBpBpBptKBpQDVcNCNCDjNCNCNCDjNCNCqIROROROImMGoKtAImImRORORORORvRvKVWbWbWbWbWbwGEcrtrtrtrtrtrtrtEcrtrtrtrtrtrtrtvwBptKBpQDBpvGfififififififiyaBptKBpQDBpoMoMAwYRYRaBYRYRYRgMYRVqtqwxLyHLLyHecBcBcBJyBKhmcBcBYlhmcBYlhmcBYlhmTcDSLyHLLyFwfizZfbfbfbxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxa
 fbfbfbfbfbfbfbfbfbfififiyaBpBptKBpQDBpBpvGfifififizZfifififififififififififififififififififififiyaBpBpBpBptKBpQDVcVcVcqIqIqIqIqIqIqIqIROROROImImImImImPNRORORORvRvKVWbWbWbsjWbWbpzEcsXrtrtrtrtrtPPEczHrtrtrtrtrtPPvwBptKBpQDBpvGfififififififiyaBptKBpQDBpoMUHvyAIzVPFbHPFPFPFzVoPjJwxLyHLLyDScBcBcBBEBKhmcBcBLrcBcBLrcBcBLrcBTcDSISHLLyFwfizZfbfbfbxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxa
-fbfbfbfbfbfbfbfbfbfififiemBpBptKBpQDBpBpKsrjrjrjUKboKKrjrjrjrjrjuKrjrjrjrjrjrjuKrjrjrjrjrjrjrjuKWJBpBpBpBptKBpQDoMuRhKROTfROROROROROTfROROROTfRORORORORORORORvRvBNWbWbWblxWbWbWboiEcnqrtrtrtrtrtjWEcnqrtrtrtrtrtjWvwmttKBpQDBpaYfififififififiemBptKBpQDBpvyvyvywxwxwxwxwxwxwxwxwxwxwxLyHLLyDSKJcBknKJDSLrlhdZcBlhlhKJlhlhcBKJTcDSLyHLLyFwfizZfbfbfbxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxa
+fbfbfbfbfbfbfbfbfbfififiemBpBptKBpQDBpBpKsrjrjrjUKmlKKrjrjrjrjrjuKrjrjrjrjrjrjuKrjrjrjrjrjrjrjuKWJBpBpBpBptKBpQDoMuRhKROTfROROROROROTfROROROTfRORORORORORORORvRvBNWbWbWblxWbWbWboiEcnqrtrtrtrtrtjWEcnqrtrtrtrtrtjWvwmttKBpQDBpaYfififififififiemBptKBpQDBpvyvyvywxwxwxwxwxwxwxwxwxwxwxLyHLLyDSKJcBknKJDSLrlhdZcBlhlhKJlhlhcBKJTcDSLyHLLyFwfizZfbfbfbxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxa
 fbfbfbfbfbfbfbfbfbfififiyaBpBptKBpQDBpBpBpBpBpBpBCmlfvBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBptKBpQDoMuRRORORORORORORORORORORORORORORORORORORORvRvKVWblxWbWbWbWbWbWbqlEcsXrtrtrtrtrtjWEcZSrtrtrtrtrtjWvwBptKBpQDBpvGfififififififiyaBptKBpQDBpoMwQFwLyOwLyLyOwLyLyOwLyLyOwLyHLLyDSDSDSDSDSDSDSDSDSDSDSDSDSDSDSDSDSDSDSLyHLLyFwfizZfbfbfbxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxa
 fbfbfbfbfbfbfbfbfbfififiyaBpBptKBpQDBpBpBpBpBpBpuiXbuiBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBptKBpQDoMuRDKRORORORORORORORORORORORORORORORORORvRvWbWbWbWbWbWbWbWbWbWbPaEcmmrtrtrtrtrtPPEcmmrtrtrtrtrtPPvwBptKBpQDBpvGfififififififiyaBptKBpQDBpoMwQLyHLHLHLHLHLHLHLHLHLHLHLHLHLLyOwLyLyLyOwbbLyLyOwLyLyLyOwLyLyLyOwLyLyLyHLLyFwfizZfbfbfbxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxa
 fbfbfbfbfbfbfbfbfbfififiyaBpBptKBpQDBpBpBpBpBpBpuiXbuiBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBptKBpQDoMuRhKROFvROROROROROFvROROROFvRORORORORvRvaTWbWdkOKbQJkOKbWdkOKbQJEcrtwsrtrtrtwsrtEcrtwsrtrtrtwsrtvwBptKBpQDBpvGfififififififiyaBptKBpQDBpoMwQanHLHLHLHLHLHLHLHLHLHLHLHLHLHLHLHLHLHLHLHLHLHLHLHLHLHLHLHLHLHLHLHLHLHLHLuhFwfizZfbfbfbxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxaxa
