@@ -1,6 +1,6 @@
 {
     "map_name": "USS Lewis",
-    "map_path": "map_files/uss_lewis",
+    "map_path": "map_files/USS_Lewis",
     "map_file": "USS_Lewis.dmm",
     "webmap_url": "GoldenArrow",
     "traits": [{"Marine Main Ship": true}],
