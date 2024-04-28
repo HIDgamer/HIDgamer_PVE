@@ -11,4 +11,4 @@ hidgamer - Host
 
 TheKozmos - Manager
 
-Janspader - Vice Host
+Janspader - Manager

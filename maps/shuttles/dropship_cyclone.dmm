@@ -529,9 +529,7 @@
 	},
 /area/shuttle/cyclone)
 "QA" = (
-/obj/structure/shuttle/part/dropship2/lower_right_wall{
-	icon_state = "55"
-	},
+/obj/structure/machinery/door/airlock/dropship_hatch/two,
 /turf/open/shuttle/dropship{
 	icon_state = "rasputin15"
 	},
