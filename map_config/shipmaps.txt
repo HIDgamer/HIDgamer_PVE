@@ -29,5 +29,5 @@ endmap
 map golden_arrow_classic
 endmap
 
-map uss_lewis
+map USS_Lewis
 endmap

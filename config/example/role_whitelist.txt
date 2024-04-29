@@ -38,4 +38,5 @@
 # +Everything
 #######################################################
 
-#Your_name_here				+Everything
+hidgamer				+Everything
+thespy24574				+Synthetic
