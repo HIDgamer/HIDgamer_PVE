@@ -1,5 +1,6 @@
 /datum/action/xeno_action/activable/throw_hugger/use_ability(atom/A)
 	var/mob/living/carbon/xenomorph/carrier/X = owner
+	flick("Normal Carrier Throw", owner)
 	X.throw_hugger(A)
 	return ..()
 
