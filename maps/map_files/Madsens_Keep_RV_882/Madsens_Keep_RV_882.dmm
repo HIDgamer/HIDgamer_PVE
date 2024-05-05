@@ -644,7 +644,7 @@
 "vw" = (/turf/closed/wall/r_wall,/area/desert_dam/building/dorms/hallway_northwing{name = "Civilian living"})
 "vx" = (/obj/structure/machinery/light/spot{dir = 1; pixel_y = 17},/turf/open/floor/almayer,/area/desert_dam/building/dorms/restroom{name = "Operations bunks"})
 "vy" = (/turf/closed/wall/r_wall,/area/desert_dam/building/water_treatment_one/garage)
-"vA" = (/obj/docking_port/stationary/trijent_elevator/occupied{id = "trijent_lz2"; name = "Lz2 Elevator"; airlock_area = /area/shuttle/trijent_shuttle/lz2; elevator_network = "B"; roundstart_template = /datum/map_template/shuttle/trijent_elevator/B},/turf/open/gm/empty,/area/shuttle/trijent_shuttle/lz2{name = "Mine interior"})
+"vA" = (/obj/docking_port/stationary/trijent_elevator/occupied{id = "trijent_lz2"; name = "Mines"; airlock_area = /area/shuttle/trijent_shuttle/lz2; elevator_network = "B"; roundstart_template = /datum/map_template/shuttle/trijent_elevator/B},/turf/open/gm/empty,/area/shuttle/trijent_shuttle/lz2{name = "Mine interior"})
 "vB" = (/obj/structure/closet/secure_closet/engineering_personal,/turf/open/floor/almayer,/area/desert_dam/building/mining/workshop_foyer{name = "Workshop Storage"})
 "vF" = (/obj/structure/surface/table/almayer,/obj/item/clothing/suit/chef,/turf/open/floor/almayer,/area/desert_dam/building/cafeteria/cafeteria)
 "vG" = (/obj/structure/platform{dir = 8},/turf/open/floor/plating/bare_catwalk,/area/desert_dam/exterior/valley/valley_wilderness)
